@@ -7,6 +7,12 @@ Dwa środowiska:
 - unsecure
 - zero trust
 
+### Docelowe działanie:
+
+- Serwer HTTP VM-B dostępny tylko z VM-A przez tailnet
+- SSH do VM-A tylko z lokalnej maszyny przez tailnet
+- Serwer HTTP VM-A dostępny tylko z lokalnej maszyny przez tailnet
+
 ### Unsecure
 
 - VM-A, VM-B z publicznym IP
@@ -36,7 +42,7 @@ Tailscale ACL:
 - curl
 - ssh
 
-Wyniki w results.md
+Wyniki w `results.md`
 
 ## Quickstart:
 
@@ -84,7 +90,7 @@ terraform init
 terraform apply --auto-approve
 ```
 
-4. Po zakończeniu zapisane IP dla VM-A i VM-B.
+4. Po zakończeniu zapisz IP dla VM-A i VM-B.
 
 5. Dostępne usługi na obu VM:
 
