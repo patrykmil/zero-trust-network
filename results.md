@@ -22,7 +22,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### curl 74.248.135.130:8000
 
-{"message":"Secret data: ???"}
+{"remote_time":"2026-05-12T02:04:46.456371","local_time":"2026-05-11T19:04:46.588333"}
 
 ### ssh 74.248.135.130
 
@@ -65,7 +65,7 @@ Not shown: 1000 filtered tcp ports (no-response)
 
 ### curl vm-a-zt:8000
 
-{"remote_time":"2026-05-12T02:05:02.481421","local_time":"2026-05-11T19:05:02.613383"}
+{"remote_time":"2026-05-12T02:04:46.481421","local_time":"2026-05-11T19:04:46.613383"}
 
 ### curl vm-a-zt:8000
 
